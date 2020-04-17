@@ -5,7 +5,7 @@
 	<div class="side-nav-panel-right">
 		<ul id="slide-out-right" class="side-nav side-nav-panel collapsible">
 			<li class="profil">
-				<img src="/g_img/yxrxziGrCmjb1Uzm5F79LXaHPKVfPwG72A6tDWmZ.jpeg" alt="">
+				<img src="/608A9397364BA1E50A04170E39998D9D.jpg" alt="">
 					<h2>{{$user_name}}</h2>
 
 
@@ -228,7 +228,7 @@
 						<div class="cart-1">
 							<div class="row">
 								<div class="col s5">
-									<img src="/g_img/CO_GP6M24AHOZZXRHYA1@CN.png" alt="">
+									<img src="/yxrxziGrCmjb1Uzm5F79LXaHPKVfPwG72A6tDWmZ.jpeg" alt="">
 								</div>
 								<div class="col s7">
 									<h5><a href="">Fashion Men's</a></h5>
@@ -333,7 +333,7 @@
 		
 		<ul class="slides">
 			<li>
-				<img src="/g_img/CO_GP6M24AHOZZXRHYA1@CN.png" alt="">
+				<img src="/yxrxziGrCmjb1Uzm5F79LXaHPKVfPwG72A6tDWmZ.jpeg" alt="">
 				<div class="caption slider-content  center-align">
 					<h2>WELCOME TO MSTORE</h2>
 					<h4>Lorem ipsum dolor sit amet.</h4>
@@ -341,7 +341,7 @@
 				</div>
 			</li>
 			<li>
-				<img src="/g_img/CO_GP6M24AHOZZXRHYA1@CN.png" alt="">
+				<img src="/yxrxziGrCmjb1Uzm5F79LXaHPKVfPwG72A6tDWmZ.jpeg" alt="">
 				<div class="caption slider-content center-align">
 					<h2>JACKETS BUSINESS</h2>
 					<h4>Lorem ipsum dolor sit amet.</h4>
@@ -349,7 +349,7 @@
 				</div>
 			</li>
 			<li>
-				<img src="/g_img/CO_GP6M24AHOZZXRHYA1@CN.png" alt="">
+				<img src="/yxrxziGrCmjb1Uzm5F79LXaHPKVfPwG72A6tDWmZ.jpeg" alt="">
 				<div class="caption slider-content center-align">
 					<h2>FASHION SHOP</h2>
 					<h4>Lorem ipsum dolor sit amet.</h4>
