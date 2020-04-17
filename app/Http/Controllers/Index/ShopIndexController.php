@@ -33,5 +33,12 @@ class ShopIndexController extends Controller
 
 
     }
-    
+
+    //商品详情页
+    function product($gid){
+        $goodinfo=ShopGoodsModel::where(['gid'=>$gid])->first();
+        //dd($goodinfo);
+        return view('index.product',['goodinfo'=>$goodinfo]);
+    }
+
 }

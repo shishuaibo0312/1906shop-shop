@@ -17,6 +17,7 @@
 Route::get('/','Index\ShopIndexController@index');//前台首页
 //电商前台
 Route::prefix('shop')->group(function () {
-    Route::get('product','Index\ShopIndexController@create');//添加视图
+    Route::get('product/{gid}','Index\ShopIndexController@product');//添加视图
+  //  Route::get('product/{gid}','Index\ShopIndexController@product');//添加视图
 
 });
