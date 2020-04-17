@@ -382,7 +382,7 @@
 				@foreach($newgoodsinfo as $v)
 				<div class="col s6">
 					<div class="content">
-						<a href="{{url('/shop/product',$v->gid)}}"><img src="{{$v->g_img}}" alt=""></a>
+						<a href="{{url('/shop/product',$v->gid)}}"><img src="{{env('UPLOAD_URL')}}{{$v->g_img}}" alt=""></a>
 						<h6><a href="">{{$v->g_name}}</a></h6>
 						<div class="price">
 							${{$v->g_jiage}} <span>${{($v->g_jiage)+($v->g_jiage)/10}}</span>
@@ -423,7 +423,7 @@
 				@foreach($bestgoodsinfo as $v)
 				<div class="col s6">
 					<div class="content">
-						<a href="{{url('/shop/product',$v->gid)}}"><img src="{{$v->g_img}}" alt="" width="100px"></a>
+						<a href="{{url('/shop/product',$v->gid)}}"><img src="{{env('UPLOAD_URL')}}{{$v->g_img}}" alt="" width="100px"></a>
 						<h6><a href="">{{$v->g_name}}</a></h6>
 						<div class="price">
 							${{$v->g_jiage}} <span>${{($v->g_jiage)+($v->g_jiage)/10}}</span>

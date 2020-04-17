@@ -46,7 +46,7 @@
                             <h5>Image</h5>
                         </div>
                         <div class="col s7">
-                            <img src="{{$goodinfo['g_img']}}" alt="">
+                            <img src="{{env('UPLOAD_URL')}}{{$goodinfo['g_img']}}" alt="">
                         </div>
                     </div>
                     <div class="row">

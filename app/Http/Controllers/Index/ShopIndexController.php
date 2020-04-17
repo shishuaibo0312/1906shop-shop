@@ -13,7 +13,7 @@ class ShopIndexController extends Controller
         //echo "<pre>";print_r($_COOKIE); echo "<pre>";die;
         $newgoodsinfo=ShopGoodsModel::where('g_new',1)->get();
         $bestgoodsinfo=ShopGoodsModel::where('g_best',1)->get();
-        //dd($goodsinfo);
+        //dd($newgoodsinfo);
 
 
         if(isset($_COOKIE['user_name'])){
